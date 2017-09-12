@@ -1,0 +1,47 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://github.com/johnpilbeam/displaced-twentyseventeen-child
+Description: Twenty Seventeen Child Theme
+Author: John Pilbeam
+Author URI: https://github.com/johnpilbeamm
+Template: twentyseventeen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-seventeen-child
+*/
+
+.site-title 
+{
+text-transform: capitalize
+width: 548px !important;
+height: 80px;
+background: url(https://i0.wp.com/displacedconsulting.com/wp-content/uploads/2017/04/cropped-web-logo.png);
+background-repeat:no-repeat;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+padding-bottom:0;
+margin-bottom:0;
+};
+
+@media screen and (min-width: 20em) {
+.site-title {width: 548px !important;}
+}
+
+@media screen and (min-width: 30em) {
+.site-title {width: 548px !important;}
+}
+
+@media screen and (min-width: 48em) {
+.site-title {width: 548px !important;}
+}
+
+#masthead > div.custom-header > div.site-branding > div.wrap {background-color:rgba(0, 0, 0, 0.40); padding: 1em; margin:0; max-width: 5000px; position:relative; left: 0;
+bottom: 0;}
+
+/* div.site-branding {margin-bottom: 25px !important;} */
+
+.site-branding {
+    padding: 0 0 8em 0;}
